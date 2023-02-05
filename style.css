@@ -2,10 +2,10 @@
 
 body{
   background: #f2f2f2;
-  border-image-repeat: space; 
+  /* border-image-repeat: space;  */
   background-image: url(WhatsApp\ Image\ 2023-02-05\ at\ 10.02.50.jpg);
-  background-size: 100vw;
-  background-position: cover;
+  /* background-position: cover; */
+  background-size: cover;
 }
 
 .container{
@@ -20,6 +20,12 @@ body{
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 0 20px 8px #d0d0d0;
+  background-image: linear-gradient(
+    40deg,
+    #fc00ff 0%,
+    #00fffc 45%,
+    #fffc00 100%
+  );
 }
 
 .content{
